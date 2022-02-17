@@ -1,0 +1,70 @@
+/* window buttons */
+.winButton-3UMjdg:nth-child(2) {
+    color: rgb(114, 47, 47);
+    border-radius: 2000px;
+    background-color:rgb(114, 47, 47);
+    height: 15px;
+    width: 15px;
+    margin-top: 3px;
+    margin-right: 8px;
+    margin-left: 10px;
+}
+.winButtonMinMax-3RsPUg:nth-child(4):hover {
+    color:rgb(55, 212, 55);
+    border-radius: 2000px;
+    background-color:rgb(55, 212, 55);
+    height: 15px;
+    width: 15px;
+    margin-top: 3px;
+    margin-right: -2px;
+    margin-left: 10px;
+}
+.winButtonMinMax-3RsPUg:nth-child(3):hover {
+    color:rgb(255, 184, 53);
+    border-radius: 200px;
+    background-color:rgb(255, 184, 53);
+    height: 15px;
+    width: 15px;
+    margin-top: 3px;
+    margin-right: -2px;
+    margin-left: 10px;
+}
+.winButton-3UMjdg:nth-child(2):hover {
+    color: rgb(255, 70, 70);
+    border-radius: 50%;
+    background-color:rgb(255, 70, 70);
+    height: 15px;
+    width: 15px;
+    margin-top: 3px;
+    margin-right: 8px;
+    margin-left: 10px;
+}
+.winButtonMinMax-3RsPUg:nth-child(4) {
+    color:rgb(47, 124, 47);
+    border-radius: 200px;
+    background-color:rgb(47, 124, 47);
+    height: 15px;
+    width: 15px;
+    margin-top: 3px;
+    margin-right: -2px;
+    margin-left: 10px;
+}
+.winButtonMinMax-3RsPUg:nth-child(3) {
+    color:rgb(141, 92, 0);
+    border-radius: 200px;
+    background-color:rgb(141, 92, 0);
+    height: 15px;
+    width: 15px;
+    margin-top: 3px;
+    margin-right: -2px;
+    margin-left: 10px;
+}
+.winButton-3UMjdg {
+    color: #ff5b5b;
+    transition: all 200ms ease-out;
+    height: 15px;
+    width: 15px;
+    margin-top: 3px;
+    margin-right: -2px;
+    margin-left: 10px;
+}
