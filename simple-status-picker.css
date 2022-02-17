@@ -1,4 +1,4 @@
-/* Simple Status Picker */
+/* Custom Status Picker */
 #status-picker {
     width: 44px;
 }
@@ -17,4 +17,18 @@
 
 .customEmoji-1nCP1t {
     margin-left: -4px
+}
+
+/* Pop-out Animation */
+#status-picker {
+    animation: custom-menu-animation 250ms ease;
+    transform-origin: bottom;
+}
+@keyframes custom-menu-animation {
+    0% {
+        transform: scaleY(0);
+    }
+    100% {
+        transform: scaleY(1);
+    }
 }
