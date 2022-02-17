@@ -1,0 +1,44 @@
+/* Simple Status Picker */
+#status-picker {
+    width: 44px;
+}
+
+.description-3Cwkxk {
+    display: none;
+}
+
+.status-3TYC5W {
+    display: none;
+}
+
+.submenuContainer-3EVTeH {
+    display: none;
+    visibility: hidden;
+}
+
+.separator-1So4YB {
+    visibility: hidden;
+    display: none;
+}
+
+.statusItem-2hiCNB {
+    margin-left: 1px;
+}
+
+.customEmoji-1nCP1t {
+    margin-left: -4px
+}
+
+/* Pop-out Animation */
+#status-picker {
+    animation: custom-menu-animation 250ms ease;
+    transform-origin: bottom;
+}
+@keyframes custom-menu-animation {
+    0% {
+        transform: scaleY(0);
+    }
+    100% {
+        transform: scaleY(1);
+    }
+}
