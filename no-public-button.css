@@ -1,0 +1,4 @@
+/* disable public button on server list */
+#bd-pub-li {
+    display: none;
+}
