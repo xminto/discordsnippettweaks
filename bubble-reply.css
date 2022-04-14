@@ -1,0 +1,48 @@
+/* text bubble reply */
+#app-mount .repliedMessage-3Z6XBG {
+  position: absolute;
+  top: 25px;
+  left: 86px;
+  background: var(--background-secondary);
+  border: 1px solid var(--background-tertiary);
+  width: fit-content;
+  max-width: calc(60vw - 240px);
+  margin-left: -5px;
+  padding: 3px 5px;
+  border-radius: 0 4px 4px 4px;
+  box-sizing: border-box;
+}
+#app-mount .repliedMessage-3Z6XBG > div {
+  position: relative;
+  z-index: 1;
+}
+#app-mount .repliedMessage-3Z6XBG img.replyAvatar-sHd2sU {
+  display: none;
+}
+#app-mount .repliedMessage-3Z6XBG img.emoji {
+  display: inline;
+}
+#app-mount .repliedMessage-3Z6XBG .username-h_Y3Us {
+  margin-right: 5px;
+}
+#app-mount .repliedMessage-3Z6XBG:before {
+  content: none;
+}
+#app-mount .repliedMessage-3Z6XBG:after {
+  content: "";
+  position: absolute;
+  top: -1px;
+  left: -4px;
+  z-index: 0;
+  width: 6px;
+  height: 6px;
+  border-radius: 0;
+  background: var(--background-secondary);
+  border: 1px solid var(--background-tertiary);
+  transform: skewX(45deg);
+  border-bottom: none;
+  border-right: none;
+}
+#app-mount .repliedMessage-3Z6XBG + .contents-2MsGLg .header-2jRmjb {
+  margin-bottom: 32px;
+}
