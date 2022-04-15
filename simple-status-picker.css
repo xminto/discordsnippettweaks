@@ -1,7 +1,7 @@
 /* Custom Status Picker */
 #status-picker {
     width: 45px;
-    height: 200px;
+    height: 150px;
 }
 
 .description-3Cwkxk {
@@ -26,7 +26,7 @@
 
 /* Pop-out Animation */
 #status-picker {
-    animation: custom-menu-animation 250ms ease;
+    animation: custom-menu-animation 400ms ease;
     transform-origin: bottom;
 }
 @keyframes custom-menu-animation {
