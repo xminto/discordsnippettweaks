@@ -1,6 +1,7 @@
 /* Custom Status Picker */
 #status-picker {
-    width: 44px;
+    width: 45px;
+    height: 200px;
 }
 
 .description-3Cwkxk {
@@ -17,6 +18,10 @@
 
 .customEmoji-1nCP1t {
     margin-left: -4px
+}
+
+.arrow-2HswgU {
+    margin-left: -11px;
 }
 
 /* Pop-out Animation */
